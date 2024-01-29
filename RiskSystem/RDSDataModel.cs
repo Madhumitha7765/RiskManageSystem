@@ -8,8 +8,8 @@ namespace RiskSystem
 {
     public class RDSDataModel
     {
-        public string CounterpartyID { get; set; }
-        public string CounterPartyType { get; set; }
-        public string Name { get; set; }
+        public string? CounterpartyID { get; set; }
+        public string? CounterPartyType { get; set; }
+        public string? Name { get; set; }
     }
 }

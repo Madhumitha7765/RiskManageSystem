@@ -8,7 +8,7 @@ namespace RiskSystem
 {
     public class RiskCalculator : IRiskCalculator
     {
-        private RiskParameter riskParameter;
+        private RiskParameter? riskParameter;
 
         public void ConfigureRiskParameter(RiskParameter parameter)
         {

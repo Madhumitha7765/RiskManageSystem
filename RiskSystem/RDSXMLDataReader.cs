@@ -8,7 +8,7 @@ namespace RiskSystem
 {
     public class RDSXMLDataReader : IRDSXMLDataReader
     {
-        private string filePath;
+        private string? filePath;
 
         public void setFilePath(string filePath)
         {

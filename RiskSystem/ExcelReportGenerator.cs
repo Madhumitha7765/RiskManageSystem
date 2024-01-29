@@ -8,7 +8,7 @@ namespace RiskSystem
 {
     public class ExcelRiskReportGenerator : IReportGenerator
     {
-        private string targetFilePath;
+        private string? targetFilePath;
 
         public void setTargetFilePath(string path)
         {

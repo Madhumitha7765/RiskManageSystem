@@ -8,8 +8,8 @@ namespace RiskSystem
 {
     public class TDSDataModel
     {
-        public string TradeID { get; set; }
-        public string Date { get; set; }
+        public string? TradeID { get; set; }
+        public string? Date { get; set; }
         public decimal Value { get; set; }
         public decimal CounterPartyIdRef { get; set; }
     }

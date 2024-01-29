@@ -8,7 +8,7 @@ namespace RiskSystem
 {
     public class TDSXMLDataReader : ITDSXMLDataReader
     {
-        private string filePath;
+        private string? filePath;
 
         public void setFilePath(string filePath)
         {
@@ -17,7 +17,6 @@ namespace RiskSystem
 
         public DataModelArray<TDSDataModel> getTDSDataList()
         {
-            // Implementation to read TDS data from XML file
             return new DataModelArray<TDSDataModel>();
         }
     }
