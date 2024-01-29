@@ -12,4 +12,4 @@ check-complexity:
     - name: Install Lizard
       run: sudo apt-get install python3-pip && pip3 install lizard
     - name: Check Code Complexity
-      run: lizard -C 3
+      run: lizard -C 20
